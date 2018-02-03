@@ -9,19 +9,18 @@ I describe breifly the important (in my consideration) functions of each one the
 
 #### variables 
 
-
-chunk :: represents the number of parts in which is divided the file 
-formato :: represnets the format of the audio 
-channels :: Number of channels to record (Inn one of them you could record the noise for example)
-Rate :: Number of data that it takes per second per second (so, t_s = 1/Rate)
-wavename1 :: wavefile for which you want to apply the function 
-fi,ff :: In terval of frequencies in which you wan to see your graph 
-norm :: choose if you wnat a normalize spectrum of frequencies (do norm='yes' if that is the case)
-secondpertone
-steptone
-littletone
-maxtone
-rate
+chunk: represents the number of parts in which is divided the file. <br />
+formato: represnets the format of the audio. <br />
+channels: Number of channels to record (Inn one of them you could record the noise for example). <br />
+Rate: Number of data that it takes per second per second. (so, t_s = 1/Rate) <br />
+wavenamei: wavefilei for which you want to apply the function. <br />
+fi,ff: In terval of frequencies in which you wan to see your graph. <br />
+norm: choose if you wnat a normalize spectrum of frequencies (do norm='yes' if that is the case). <br />
+secondpertone: seconds that you want a given tone to long.  <br />
+steptone: 
+littletone:
+maxtone:
+rate:
 
 
 ### plotonlytransform(chunk,formato,Channels,Rate,Record_seconds,wavename1,fi,ff,norm)
